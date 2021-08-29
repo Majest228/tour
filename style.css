@@ -1,0 +1,262 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: 'TT Hoves';
+  height: 100%;
+  color: #000;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+body {
+  height: 100%;
+  font-family: 'TT Hoves';
+  color: #000;
+  background: #f5f5f5;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'TT Hoves';
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1;
+  margin: 0px 0px 50px 0px;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 1;
+  margin: 0px 0px 20px 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.header {
+    background: url('/img/intro.jpg') no-repeat;
+    background-size: cover;
+    padding-bottom: 321px;
+}
+
+.header__content {
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__list {
+    padding-top: 9px;
+    display: flex; 
+}
+.header__list>li {
+    padding: 0 42px;
+}
+
+.header__list>li>a {
+    font-family: Cera Pro;
+    font-weight: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+
+.header__button-search {
+    background: none;
+    margin-right: 30px;
+    width: 35px;
+    height: 35px;
+}
+
+.header__button-login {
+    background: none;
+    width: 40px;
+    height: 40px;
+}
+
+.intro__title {
+  display: flex;
+  justify-content: center;
+  margin-top: 220px;
+
+}
+.intro__title>h1 {
+  font-weight: bold;
+  font-size: 64px;
+  color: #FFC908;
+}
+
+.intro__body {
+  max-width: 610px;
+  margin: 6px auto;
+
+}
+
+.intro__body>p {
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.selectTour {
+  max-width: 930px;
+  margin: 0 auto;
+  background: #004EE499;
+  backdrop-filter: blur(12px);  
+  height: 102px;
+  border-radius: 30px;
+  margin-top: 25px;
+}
+.selectTour__content {
+  display: flex;
+  justify-content: center;
+  padding-top: 7px;
+}
+input[type=datetime] {
+  background: none;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 30px 0px 0px 30px;
+  width: 170px;
+  height: 41px;
+
+}
+
+input[type=text] {
+
+  background: none;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  width: 170px;
+  height: 41px;
+}
+
+input[type=text]::placeholder {
+  font-weight: normal;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
+.date::placeholder {
+  font-weight: normal;
+  font-size: 12px;
+  padding-left: 30px;
+  color: #FFFFFF
+}
+
+.tour__button {
+  background: linear-gradient(90deg, #FF5C00 -10.2%, #FFD600 108.4%);
+  border-top-right-radius:10px;
+  border-bottom-right-radius:10px;
+  padding: 13.5px 38px;
+  font-weight: bold;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
+.selectTour>h3 {
+  padding-left: 48px;
+  padding-top: 15px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.selectTour__input {
+  position: relative;
+}
+
+.selectTour__input .calendar {
+  position: absolute;
+  left: 132px;
+  top: 11px;
+}
+.country__title {
+  margin-top: 90px;
+  font-weight: bold;
+  font-size: 36px;
+  color: #303030;
+  text-align: center;
+}
+
+.card {
+  position: relative;
+  max-width:270px;
+  margin-top: 100px;
+}
+.card>img {
+    width:270px;
+    display: block;
+
+    border-top-right-radius:30px;
+    border-top-left-radius:30px;
+    height: 229px;
+}
+.card__body {
+  background-color: #FFFFFF;
+  border-bottom-left-radius:30px;
+  border-bottom-right-radius:30px;
+}
+
+.card__body>h4 {
+font-weight: normal;
+font-size: 14px;
+padding-left: 25px;
+padding-top: 10px;
+color: #000000;
+}
+
+.card__text {
+  display: flex;
+}
+.card__text>img {
+ margin-right: 5px;
+}
+.country__content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.price {
+  position: absolute;
+  top:0;
+  width: 100px;
+  height: 40px;
+  background: #004EE4;
+  border-radius: 30px 0px;
+}
+.price>p {
+  text-align: center;
+  margin-top: 8px;
+font-weight: normal;
+font-size: 14px;
+
+color: #FFFFFF;
+}
